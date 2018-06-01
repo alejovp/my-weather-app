@@ -1,13 +1,11 @@
 {
   "name": "my-weather-app",
   "version": "1.0.0",
-  "description":
-    "Simple weather web app created with react and redux",
+  "description": "Simple weather web app created with react and redux",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "test":
-      "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Alejandro Vázquez",
@@ -27,11 +25,14 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "bootstrap": "^4.1.1",
+    "css-loader": "^0.28.11",
     "lodash": "^3.10.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
     "react-router": "^2.0.1",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "style-loader": "^0.21.0"
   }
 }
