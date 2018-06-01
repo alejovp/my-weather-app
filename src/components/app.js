@@ -5,7 +5,7 @@ import SearchBar from '../containers/SearchBar';
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <div>React simple starter</div>
         <SearchBar />
       </div>
