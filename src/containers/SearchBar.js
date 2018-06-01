@@ -10,13 +10,17 @@ export default class SearchBar extends Component {
   }
 
   onInputChange(event) {
-    console.log(event.target.value);
     this.setState({ term: event.target.value })
+  }
+
+  onFormSubmit(event) {
+    envent.preventDefault();
+    
   }
   
   render() {
     return (
-      <form className="input-group">
+      <form className="input-group" onSubmit={this.onFormSubmit}>
         <input 
           type="text" 
           className="form-control"
