@@ -1,8 +1,19 @@
+.app-title {
+  text-align: center;
+  padding-top: 30px;
+}
+
 td, th {
   vertical-align: middle !important;
   text-align: center;
 }
 
 .search-bar {
-  padding: 20px 0px;
+  padding: 20px 0px 40px 0px;
+  justify-content: center;
+}
+
+.maps {
+  height: 200px;
+  width: 250px;
 }

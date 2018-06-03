@@ -8,7 +8,7 @@ export default class App extends Component {
   render() {
     return (
       <div className="container">
-        <div>React simple starter</div>
+        <h1 className="app-title">My react + redux Weather App</h1>
         <SearchBar />
         <WeatherList />
       </div>
